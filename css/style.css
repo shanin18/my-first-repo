@@ -1,0 +1,13 @@
+h1{
+    font-family: sans-serif;
+}
+
+ul{
+    font-family: sans-serif;
+    list-style-type:decimal;
+    font-weight: bold;
+}
+
+li{
+    line-height: 30px;
+}
