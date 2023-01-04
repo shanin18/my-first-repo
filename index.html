@@ -4,36 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First GitHub Repo</title>
+    <title>More HTML & CSS</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Git & GitHub interview questions</h1>
-    <ul>
-        <li>
-            What is Git? What are the advantages of Git?
-            <p>
-                Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
-                 <br> 
-                 <strong>Advantages:</strong>
-                <ul>
-                    <li>Fast</li>
-                    <li>Does not lose data(has proper fsck, checksums, every developer has full copy of the repository, well written code).</li>
-                    <li>Distribute(meaning, handles branching and merging very well).</li>
-                    <li>Ability to create commits that do not match the collection of all modified files("index" or "staging area").</li>
-                    <li>gives you lots of freedom.</li>
-                </ul>
-            </p>
-        </li>
-        <li>
-            What do you understand by the term "Version Control System"?
-            <p>Version control systems are a category of software tools that helps in recording changes made to files by keeping a track of modifications done in the code. </p>
-        </li>
-        <li>
-            more question and answers coming....
-        </li>
-    </ul>
+  <h1>Welcome to Mim er Dim :</h1>
+  <form>
+    <label for="name">Name :
+        <input type="text" id="name" required placeholder="Enter your name">
+      </label>
+      <label for="email">Email :
+        <input type="email" id="email" required placeholder="Enter your email">
+      </label>
+      <label for="password">Password :
+        <input type="password" id="password" required placeholder="Enter your password">
+      </label>
+      <fieldset>
+        <legend>Choose a Category</legend>
+        <label for="shiddho">
+            <input id="shiddho" type="radio" name="dim">
+            শেদ্ধ
+        </label>
+        <label for="kacha">
+            <input id="kacha" type="radio" name="dim">
+            কাঁচা
+        </label>
+      </fieldset>
+      
+      <fieldset>
+        <legend>Choose an Egg</legend>
+        <label for="hasher-dim">
+            <input id="hasher-dim" type="checkbox">
+            হাঁসের ডিম
+        </label>
+        <label for="murgir-dim">
+            <input id="murgir-dim" type="checkbox">
+            মুরগির ডিম
+        </label>
+        <label for="ghorar-dim">
+            <input id="ghorar-dim" type="checkbox">
+            ঘোড়ার ডিম
+        </label>
+      </fieldset>
 
-
+      <fieldset>
+        <legend>Give us a feedback</legend>
+        <textarea rows="10"></textarea>
+      </fieldset>
+      <input type="reset" class="reset">
+      <input type="submit"  value="Submit" class="submit">
+  </form>
+  
 </body>
 </html>
