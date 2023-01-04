@@ -42,4 +42,29 @@ textarea{
     cursor: pointer;
     box-shadow: 1px 1px 3px blueviolet;
 }
+table{
+    margin: 0 auto;
+    width: 600px;
+    border-collapse: collapse;
+    overflow-x: auto;
+}
+caption{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
 
+tr{
+    font-size: 20px;
+    transition: .5s;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+tr:hover{
+    background-color: blueviolet;
+    color: white;
+}
